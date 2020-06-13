@@ -110,12 +110,14 @@
     .social_handel{
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin-top: 15px;
         margin-right:auto;
         margin-left: auto;
     }
     .handle{
-        margin-top: 30px;
-        font-size: 20px;
+        font-size:12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: hsl(228, 34%, 66%);
     }
     .number{
@@ -127,31 +129,74 @@
     }
     .icon{
 
-        font-size:4em;
+        font-size:2em;
+        margin-bottom: 0px;
+        margin-top: 0px;
         /* height: .1em; */
-        margin-top:7px;
+        /* margin-top:7px; */
+    }
+    .fab{
+        font-size:22px;
+        margin-right:10px;
+     
     }
     .fa-facebook-square{
-        margin: 2px;
+        /* margin: 2px; */
+        color:rgb(53, 124, 231) ;
+      
+    }
+    .fa-twitter{
+        color:rgba(77, 171, 247, 0.863) ;
+    }
+    .fa-instagram{
+        color: rgb(241, 41, 141);
+    }
+    .fa-youtube-square{
+        color:rgb(241, 41, 41) ;
     }
     .followers{
-        font-size:35px;
+        font-size:25px;
+        font-family: cursive;
         margin-top: 0px;
         margin-bottom: 0px;
-        /* font-weight: 400; */
+        font-weight: 400;
         color: hsl(228, 34%, 66%);
     }
     .facebook{
-        border-top: 5px solid rgb(21, 5, 238);
+        border-top: 3px solid rgb(53, 124, 231);
+        
     }.twiter{
-        border-top: 5px solid rgba(77, 171, 247, 0.863); 
+        border-top: 3px solid rgba(77, 171, 247, 0.863); 
     }
     .instagram{
-        border-top: 5px solid rgb(241, 41, 141);
+        border-top: 3px solid rgb(241, 41, 141);
     }
     .yuotube{
-        border-top: 5px solid rgb(241, 41, 41);
-
+        border-top: 3px solid rgb(241, 41, 41);
+    
+    }
+    .rise-container{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        /* border: 1px solid white; */
+        
+        /*padding:4px;*/
+    }
+    .fa-sort-up{
+        font-size:12px;    
+        /* border: 1px solid white; */
+       padding-bottom: 0px;
+        margin-right:5px;
+        color:rgba(63, 236, 155, 0.76) ;
+    
+    }
+    .fa-sort-down{
+        font-size:12px;
+        /* border: 1px solid white; */
+        padding-bottom: 0px;
+         margin-right:5px;
+         color:rgba(236, 54, 47, 0.616);
     }
     .rise{
         font-size:14px;
@@ -169,9 +214,9 @@
         padding:0px;
         margin-right:auto;
         margin-left:auto;
-        
+        display:flex;
+        flex-direction: column;}
 
-    }
     .card2{
         width:100%;
         display:flex;
@@ -191,6 +236,7 @@
         margin:20px;
         margin-bottom:0px;
         display:flex;
+        /* flex-direction: column; */
         justify-content:space-between;
         align-items:center;
     }
@@ -247,7 +293,7 @@ body{
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    border-radius: 10px;
+    border-radius:2px;
     background-color: rgba(28, 27, 36, 0.664);
 }
 .heading_conatainer{
@@ -316,7 +362,7 @@ body{
     margin-top:13px;
     height:25px;
     cursor:pointer;
-    transition:ease-in 0.8s;
+    transition:ease-in 0.4s;
     background-color: hsl(189, 70%, 65%);
 
 }
@@ -331,7 +377,7 @@ body{
     margin-right: 4px;
 }
 .card_container{
-    margin-top: -100px;
+    margin-top: -90px;
     padding-top: 20px;
     width:100%;  
     /* border: 1px solid white;  */
@@ -354,7 +400,7 @@ body{
     background-color:  hsl(228, 28%, 20%);
     margin-right:auto;
     margin-left: auto;
-    border-radius: 10px;
+    border-radius:4px;
 }
 .card:hover{
     background-color:hsla(231, 25%, 31%, 0.795);
@@ -363,12 +409,15 @@ body{
 .social_handel{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 5px;
     margin-right:auto;
     margin-left: auto;
+    /* border: 1px solid white; */
 }
 .handle{
     /* margin-top: 30px; */
-    font-size:14px;
+    font-size:12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: hsl(228, 34%, 66%);
 }
@@ -382,11 +431,29 @@ body{
 .icon{
 
     font-size:2em;
+    margin-bottom: 0px;
+    margin-top: 0px;
     /* height: .1em; */
     /* margin-top:7px; */
 }
+.fab{
+    border: 0px;
+    font-size:22px;
+    margin-right:10px;
+}
 .fa-facebook-square{
-    margin: 2px;
+    /* margin: 2px; */
+    color:rgb(53, 124, 231) ;
+  
+}
+.fa-twitter{
+    color:rgba(77, 171, 247, 0.863) ;
+}
+.fa-instagram{
+    color: rgb(241, 41, 141);
+}
+.fa-youtube-square{
+    color:rgb(241, 41, 41) ;
 }
 .followers{
     font-size:20px;
@@ -397,7 +464,8 @@ body{
     color: hsl(228, 34%, 66%);
 }
 .facebook{
-    border-top: 3px solid rgb(21, 5, 238);
+    border-top: 3px solid rgb(53, 124, 231);
+    
 }.twiter{
     border-top: 3px solid rgba(77, 171, 247, 0.863); 
 }
@@ -408,13 +476,40 @@ body{
     border-top: 3px solid rgb(241, 41, 41);
 
 }
+.rise-container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* border: 1px solid white; */
+    
+    /*padding:4px;*/
+}
+.fa-sort-up{
+    font-size:12px;    
+    /* border: 1px solid white; */
+   padding-bottom: 0px;
+    margin-right:5px;
+    color:rgba(63, 236, 155, 0.76) ;
+
+}
+.fa-sort-down{
+    font-size:12px;
+    /* border: 1px solid white; */
+    padding-bottom: 0px;
+     margin-right:5px;
+     color:rgba(236, 54, 47, 0.616);
+}
+
 .rise{
     font-size:12px;
     margin-bottom:20px;
     margin-top:20px;
 }
 .overview{
-    margin-bottom:0px;}
+    margin-bottom:0px;
+font-size:25px;
+/* font-family:serif ; */
+}
     
 
 .over_container{
@@ -425,16 +520,14 @@ body{
     /* border: 1px solid white; */
 
 }
-}
 .card2_container{
     margin-top:20px;
     width:100%;
     /* padding:0px; */
-    /* border: 1px solid white; */
     margin-right:auto;
     margin-left:auto;
     display:grid;
-    padding-left: 90px;
+    padding-left: 80px;
     padding-right:70px; 
     grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
@@ -443,14 +536,14 @@ body{
 }
 .card2{
     margin-top: 20px;
-    width:90%;
-        text-align:center;
+    width:95%;
+    text-align:center;
     flex-direction:column;
     /* padding:0px 20px 0px 20px; */
     /* padding-left:20px;
     padding-right:20px; */
     background-color:  hsl(228, 28%, 20%);
-    border-radius:10px;
+    border-radius:5px;
     /* margin:0px 0px 20px 0px; */
     /* justify-content:space-between; */
 
@@ -463,17 +556,21 @@ body{
 .discription{
     margin-left:20px;
     margin-bottom:0px;
+    margin-top: 4px;
+    margin-right:20px;
     display:flex;
     justify-content:space-between;
-    align-items:center;
+    align-items:baseline;
 }
 .numbers{
+    /* border: 1px solid white; */
     margin-left:20px;
     margin-right:20px;
-    margin-bottom:0px;
+    padding-bottom:0px;
     display:flex;
     justify-content:space-between;
     text-align:center;
+    align-items:baseline;
 
     
 }
@@ -482,18 +579,20 @@ body{
     color:hsl(228, 34%, 66%);
     font-weight:bold;
     font-size:14px;
+    
 }
 .number2{
     font-size:20px;
     color:white;
+    
     /* margin-top:px; */
-    padding-bottom:0px;
+    
 }
 .rise{
     /* margin-top:60px; */
     font-size:12px;       
      color:rgba(63, 236, 155, 0.76);
-    font-weight:bold; 
+    font-weight:bold;
 }
-
+}
 
