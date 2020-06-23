@@ -281,9 +281,7 @@ body{
     
     font-family: sans-serif;
 }
-body.lighter{
-    background-color: hsl(0, 0%, 100%);
-}
+
 .main_container{
     /* border: 1px solid red; */
     max-width: 1300px;
@@ -306,6 +304,7 @@ body.lighter{
     border-radius:2px;
     background-color: rgba(28, 27, 36, 0.664);
 }
+
 .heading_conatainer{
     display:flex;
     flex-direction: column;
@@ -356,11 +355,7 @@ body.lighter{
     padding:3px;
     background-image: linear-gradient( hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
-.togle_button.light_mode{
-    justify-content: flex-end;
-    background-color:hsl(230, 22%, 74%);
-   
-}
+
 .switcher{
     width: 1.5em;
     height:100%;
@@ -368,9 +363,7 @@ body.lighter{
     border-radius: 50%;
     transition: 300ms ease-in;
 }
-.switcher.day{
-    background-color:white;
-}
+
 
 /* .checkbox{
     display:none;
@@ -627,5 +620,32 @@ font-size:25px;
      color:rgba(63, 236, 155, 0.76);
     font-weight:bold;
 }
+}
+
+/* light mode*/
+/* header color */
+.heading.heading_light{
+    color:  hsl(230, 17%, 14%);
+}
+.togle_button.light_mode{
+    justify-content: flex-end;
+    background-image: linear-gradient( hsl(230, 22%, 74%), hsl(230, 22%, 74%));
+    background-color:hsl(230, 22%, 74%);
+   
+}
+.header_container.dayHead{
+    background-color: hsl(0, 0%, 97%);
+}
+.switcher.day{
+    background-color:white;
+}
+body.lighter{
+    background-color: hsl(0, 0%, 100%);
+}
+.card.card_light{
+    background-color: hsl(227, 47%, 96%);
+}
+.card.card_light >.number{
+    color: black;
 }
 
