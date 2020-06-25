@@ -10,7 +10,8 @@
         font-family: sans-serif;
     }
     .header_container{
-        width:100%; 
+        width:97%; 
+        max-width:400px;
         margin-right:auto;
         margin-left: auto;
         padding:10px;
@@ -20,79 +21,67 @@
         background-color: rgba(28, 27, 36, 0.664);
     }
     .heading{
-        width:100%;
+        width:75%;
         color: white;
-        margin-bottom:6px;
+        margin:0px auto 6px auto;
         font-weight: bold;
 
     }
     .subtitle{
-        width:100%;
+        width:75%;
         color: hsl(228, 34%, 66%);
-        margin-top:0px;
+        /* margin-top:0px; */
         font-weight: 100;
         font-size:17px;
         font-weight: bold;
         padding-bottom:30px;
-        margin-bottom: 5px;
+        margin:0px auto 5px auto;
         border-bottom:.2px solid  rgba(151, 177, 224, 0.6);
 
     }
     .toggle_container{
         display:flex;
-        justify-content: space-between;
-        align-content:bottom;
-        margin-bottom: 90px;
+        justify-content:space-between;
+        align-content:center;
+        /* border: 1px solid white; */
+        width:75%;
+        margin:0px auto 90px auto;
+        padding:0px 10px ;
+    
         
-
+    
     }
-    /* .togle_button{
-        height:1.9em;
-        margin-top:15px;
+    .togle_button{
+        height:1.8em;
+        margin-top:10px;
         display: flex;
         justify-content:start;
-        align-items: center;
+        align-items:baseline;
         border-radius:50px;
         border: 0px;
-        width:4em;
-        background-color:hsl(189, 70%, 65%) ;
-    } */
+        cursor: pointer;
+        width:3.5em;
+        padding:3px;
+        background-image: linear-gradient( hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    }
     
-    .checkbox{
-        display:none;
-        position: absolute;
-    }
-    /* .checkbox:checked ~ .togle_button{
-        background-color:white;
-
-    } */
     .switcher{
-        position:relative;
-        display:flex;
-        align-items:center;
-        /* align-items:center; */
-      border-radius:50px;
-        /* border: 0px; */
-        width:50px;
-        margin-top:13px;
-        height:25px;
-        cursor:pointer;
-        transition:ease-in 0.8s;
-        background-color: hsl(189, 70%, 65%);
-
+        width: 1.5em;
+        height:100%;
+        background-color: hsl(230, 17%, 14%);
+        border-radius: 50%;
+        transition: 300ms ease-in;
     }
-    .checkbox:checked ~ .switcher {
-        background-color:white;
-
-    } 
     .darkmode{
         color: hsl(228, 34%, 66%);
         font-weight: bold;
         font-size:17px;
     }
     .card_container{
-        margin-top: -80px;
-        width:100%;       
+        /* margin-top: -80px; */
+        width:95%; 
+        max-width: 400px;  
+        margin: -80px auto 0px auto;   
     }
     .card{
         display: flex;
@@ -101,10 +90,11 @@
         text-align:center;
         color:white;
         width: 90%;
-        margin-bottom:30px;
-        background-color:  hsl(228, 28%, 20%);
         margin-right:auto;
         margin-left: auto;
+        margin-bottom:30px;
+        background-color:  hsl(228, 28%, 20%);
+       
         border-radius: 10px;
     }
     .social_handel{
@@ -121,10 +111,10 @@
         color: hsl(228, 34%, 66%);
     }
     .number{
-        font-size:6em;
+        font-size:4em;
         /* border: 1px solid white; */
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         font-weight: bold;
     }
     .icon{
@@ -204,13 +194,17 @@
         margin-top:40px;
     }
     .overview{
-        margin-bottom:30px;
+        margin-bottom:20px;
     }
     .over_container{
         background-color:hsl(230, 17%, 14%) ;
+        margin-bottom: 20px;
+        max-width:400px;
+
     }
     .card2_container{
-        width:90%;
+        width:95%; 
+        max-width: 400px;
         padding:0px;
         margin-right:auto;
         margin-left:auto;
@@ -218,7 +212,9 @@
         flex-direction: column;}
 
     .card2{
-        width:100%;
+        width: 90%;
+        margin-right:auto;
+        margin-left: auto;
         display:flex;
         text-align:center;
         flex-direction:column;
@@ -227,13 +223,13 @@
         padding-right:20px; */
         background-color:  hsl(228, 28%, 20%);
         border-radius:10px;
-        margin:0px 0px 20px 0px;
+        margin-bottom: 10px;
         /* justify-content:space-between; */
 
 
     }
     .discription{
-        margin:20px;
+        margin:10px;
         margin-bottom:0px;
         display:flex;
         /* flex-direction: column; */
@@ -245,6 +241,7 @@
         margin-right:20px;
         margin-bottom:0px;
         display:flex;
+      
         justify-content:space-between;
         text-align:center;
 
@@ -257,15 +254,15 @@
         font-size:18px;
     }
     .number2{
-        font-size:40px;
+        font-size:30px;
         color:white;
         /* margin-top:px; */
         padding-bottom:0px;
     }
     .rise{
-        margin-top:60px;
+        /* margin-top:60px; */
         font-size:16px;       
-         color:rgb(70, 187, 70);
+         color:rgb(34, 209, 34);
         font-weight:bolder; 
     }
 }
@@ -284,7 +281,7 @@ body{
 
 .main_container{
     /* border: 1px solid red; */
-    max-width: 1300px;
+    max-width: 1200px;
     margin-right:auto;
     margin-left: auto;
 
@@ -385,9 +382,9 @@ body{
     height:25px;
     cursor:pointer;
     transition:ease-in 0.4s;
-    background-color: hsl(189, 70%, 65%); */
+    background-color: hsl(189, 70%, 65%); 
+}*/
 
-}
 /* .checkbox:checked ~ .switcher {
     background-color:white;
 
@@ -404,7 +401,7 @@ body{
     width:100%;  
     /* border: 1px solid white;  */
     display:grid;
-    min-width: 800px;
+    /* min-width: 800px; */
     grid-template-columns:1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
     justify-content: space-around; 
@@ -513,7 +510,7 @@ body{
     /* border: 1px solid white; */
    padding-bottom: 0px;
     margin-right:5px;
-    color:rgba(63, 236, 155, 0.76) ;
+    color:rgba(17, 184, 106, 0.932) ;
 
 }
 .fa-sort-down{
@@ -617,9 +614,9 @@ font-size:25px;
 .rise{
     /* margin-top:60px; */
     font-size:12px;       
-     color:rgba(63, 236, 155, 0.76);
+    color:rgb(34, 209, 34);
     font-weight:bold;
-}
+}}
 
 
 /* light mode*/
