@@ -530,7 +530,7 @@ body{
     margin-top:20px;
 }
 .overview{
-    margin-bottom:0px;
+margin-bottom:4pxpx;
 font-size:25px;
 /* font-family:serif ; */
 }
@@ -620,7 +620,7 @@ font-size:25px;
      color:rgba(63, 236, 155, 0.76);
     font-weight:bold;
 }
-}
+
 
 /* light mode*/
 /* header color */
@@ -645,7 +645,19 @@ body.lighter{
 .card.card_light{
     background-color: hsl(227, 47%, 96%);
 }
-.card.card_light >.number{
+.number.number_light{
+    color: black;
+}
+.header_container.over_container_light{
+    background-color: hsl(227, 47%, 96%) ;
+}
+.overview.heading_light{
+    color: black;
+}
+.card2.card_light{
+    background-color: hsl(227, 47%, 96%);
+}
+.number2.number_light{
     color: black;
 }
 
