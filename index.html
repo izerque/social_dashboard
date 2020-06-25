@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="file:///D:/pending%20projects/social-media-dashboard-with-theme-switcher-master/css/all.css">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/css/all.css">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -17,28 +18,31 @@
   </style>
 </head>
 <body>
-  <header class="header_container">
-    <h2 class="heading">
+  <div class="main_container" >
+  <header class="header_container" id="header_box">
+    <div class="heading_container">
+    <h2 class="heading" id="head-title">
       Social Media Dashboard
     </h2>
-    <h3 class="subtitle">
+    <h3 class="subtitle" id="head-subtitle">
       Total Followers: 23,004
     </h3>
+  </div>
 
   <span class="toggle_container">
     <p class="darkmode">
       Dark Mode
     </p>
-    <button class="togle_button" >
-      <div class="switcher"></div>
-    </button>
+    <lable class="togle_button"  id='toggle_switch'>
+      <div class="switcher"></div>    
+    </lable>
   </span>
 </header>
   <section class="card_container">
-   <div class="card facebook">
+   <div class="card facebook" id="cardlight">
     <div class="social_handel">
-      <i class="icon"></i>
-      <p class="handle">
+      <i class="fab icon fa-facebook-square"></i>
+       <p class="handle">
         @nathanf
       </p>
     </div>
@@ -47,13 +51,16 @@
         1987
       </p>
       <p class="followers"> Followers</p>
-    </div>    
-    <p class="rise"> 12 Today</p>
+    </div> 
+    <span class="rise-container">
+      <i class="fas fa-sort-up"></i>   
+      <p class="rise"> 12 Today</p>
+    </span>   
    </div>
    <div class="card twiter">
     <div class="social_handel">
-      <i class="icon"></i>
-      <p class="handle">
+      <i class="fab icon fa-twitter"></i>  
+           <p class="handle">
         @nathanf
       </p>
     </div>
@@ -63,14 +70,16 @@
       </p>
       <p class="followers"> Followers</p>
     </div>
-    
-    <p class="rise"> 99 Today </p>    
+    <span class="rise-container">
+      <i class="fas fa-sort-up"></i>   
+      <p class="rise"> 99 Today </p>  
+         </span>
    </div>
     
    <div class="card instagram">
     <div class="social_handel">
-      <i class="icon"></i>
-      <p class="handle">
+      <i class="fab icon fa-instagram"></i> 
+           <p class="handle">
         @realnathanf
       </p>
     </div>
@@ -79,13 +88,16 @@
         11k
       </p>
       <p class="followers"> Followers</p>
-    </div>    
-    <p class="rise">1099 Today </p>    
-   </div> 
+    </div> 
+    <span class="rise-container">
+      <i class="fas fa-sort-up"></i>   
+      <p class="rise">1099 Today </p> 
+        </span>   
+      </div> 
    <div class="card yuotube">
     <div class="social_handel">
-      <i class="icon"></i>
-      <p class="handle">
+      <i class="fab icon fa-youtube-square"></i>  
+           <p class="handle">
         Nathan F.
       </p>
     </div>
@@ -94,13 +106,17 @@
         8239
       </p>
       <p class="followers"> Subscribers</p>
-    </div>    
-    <p class="rise">144 Today </p>    
+    </div>  
+    <span class="rise-container ">
+      <i class="fas fa-sort-down"></i>
+      <p class="rise">144 Today </p>
+        </span>   
+        
    </div>  
   </section>
 
-  <div class="header_container over_container">
-    <h2 class="heading overview"> Overview - Today</h2>
+  <div class="header_container over_container" id="overviewL">
+    <h2 class="heading overview" id="over"> Overview - Today</h2>
   </div>
 
   <section class="card2_container">
@@ -109,8 +125,8 @@
         <p class="disc">
           Page Views
         </p>
-        <i class="icon"></i>
-      </span>
+        <i class="fab icon fa-facebook-square"></i>
+       </span>
       <span class="numbers">
         <p class="number2">
           87
@@ -125,7 +141,7 @@
       <p class="disc">
         Likes
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-facebook-square"></i>
     </span>
     <span class="numbers">
       <p class="number2">
@@ -142,7 +158,7 @@
       <p class="disc">
         Likes
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-instagram"></i> 
     </span>
     <span class="numbers">
       <p class="number2">
@@ -162,7 +178,7 @@
       <p class="disc">
         Profile Views
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-instagram"></i> 
     </span>
     <span class="numbers">
       <p class="number2">
@@ -182,14 +198,14 @@
       <p class="disc">
         Retweets
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-twitter"></i>  
     </span>
     <span class="numbers">
       <p class="number2">
         117
       </p>
       <p class="rise">
-        303%
+        30%
       </p>
     </span>      
   </div>
@@ -202,7 +218,7 @@
       <p class="disc">
         Likes
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-twitter"></i>  
     </span>
     <span class="numbers">
       <p class="number2">
@@ -222,7 +238,7 @@
       <p class="disc">
         Likes
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-youtube-square"></i>  
     </span>
     <span class="numbers">
       <p class="number2">
@@ -242,7 +258,7 @@
       <p class="disc">
         Total Views
       </p>
-      <i class="icon"></i>
+      <i class="fab icon fa-youtube-square"></i>  
     </span>
     <span class="numbers">
       <p class="number2">
@@ -262,5 +278,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="light-mode.js"></script>
+</div>
 </body>
 </html>
